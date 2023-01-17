@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kruskal
 {
-    internal class Edge
+    public class Edge
     {
         public Edge(int v1, int v2)
         {

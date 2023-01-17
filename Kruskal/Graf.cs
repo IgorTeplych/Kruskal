@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace Kruskal
 {
-    internal class Graf
+    public class Graf
     {
         int[] Parrent;
-
         public Edge[] Kruskal(int[][] g)
         {
             Parrent = new int[g.Length];
